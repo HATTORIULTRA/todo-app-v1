@@ -1,0 +1,32 @@
+.todo {
+    border-bottom: 4px solid #F6A89E;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.todo svg {
+    cursor: pointer;
+}
+
+.completedTodo {
+    border-bottom: 4px solid #F6A89E;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    user-select: none;
+    text-decoration: line-through;
+}
+
+.completed {
+    margin-right: 10px;
+}
+
+.delete {
+    margin: 0 0 0 auto;
+}
